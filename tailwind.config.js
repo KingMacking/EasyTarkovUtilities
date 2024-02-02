@@ -9,7 +9,9 @@ export default {
     extend: {},
     colors: {
       white: "#FCFCFC",
-      black: "#171717",
+      black: "#181818",
+      primary: "#9a8866",
+      transparent: "transparent",
     },
     fontFamily: {
       primary: ['Montserrat', 'sans-serif'],

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "customs",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/55/CustomsLargeExpansionGloryMonki.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9f/Customs_Banner.png",
+        "label": "Customs"
+    },
+    {
+        "name": "factory",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/Factory_loot.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1a/Factory-Day_Banner.png",
+        "label": "Factory"
+    },
+    {
+        "name": "ground-zero",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9b/GroundZeroByxTycho.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4d/Ground_Zero_Banner.png",
+        "label": "Ground"
+    },
+    {
+        "name": "interchange",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/27/Interchange2DMapLorathor.jpg",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/Banner_interchange.png",
+        "label": "Interchange"
+    },
+    {
+        "name": "lighthouse",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/13/Jindouz_Lighthouse_Map_V1.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/dc/Banner_lighthouse.png",
+        "label": "Lighthouse"
+    },
+    {
+        "name": "reserve",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7c/JindouzReserve_v1_2dmap.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Reserve.png",
+        "label": "Reserve"
+    },
+    {
+        "name": "shoreline",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/Shoreline2DMapByMonkiUpdatedByJindouz.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d5/Banner_shoreline.png",
+        "label": "Shoreline"
+    },
+    {
+        "name": "streets-of-tarkov",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/71/StreetsOfTarkov2DMapByJindouz.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/41/Banner_streets.png",
+        "label": "Streets of Tarkov"
+    },
+    {
+        "name": "the-lab",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9e/LabsMapByMonkimonkimonk.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/TheLabBanner.png",
+        "label": "The Lab"
+    },
+    {
+        "name": "woods",
+        "img": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/Glory4lyfeWoods_map_v4_marked.png",
+        "icon": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/Banner_woods.png",
+        "label": "Woods"
+    }
+]
