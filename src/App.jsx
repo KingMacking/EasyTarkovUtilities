@@ -4,7 +4,7 @@ import Maps from "./Pages/Maps/Maps"
 
 function App() {
     return (
-        <main className="w-screen h-screen">
+        <main className="min-w-full min-h-screen">
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/maps" element={<Maps/>}/>

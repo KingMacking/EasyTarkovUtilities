@@ -5,14 +5,13 @@ import MapWithZoom from './MapWithZoom';
 
 const Maps = () => {
     let {map} = useParams();
-    console.log(map);
     return (
-        <section className='flex items-center justify-center w-full h-full bg-black'>
+        <section className='flex items-center justify-center w-full min-h-screen bg-black'>
             {
                 map ? (
                     <MapWithZoom label={MAP_INFO.filter(data => data.name === map)[0].label} name={MAP_INFO.filter(data => data.name === map)[0].name}/>
                 ) : (
-                    <ul className='flex flex-wrap items-center justify-center gap-4 md:max-w-5xl lg:max-w-7xl'>
+                    <ul className='flex flex-wrap items-center justify-center gap-4 py-8 xl:py-0 md:max-w-5xl lg:max-w-7xl'>
                         {
                             MAP_INFO.map(data => (
                                 <ListItem imgAlt={`Representative image of ${data.name}`} imgSrc={`/${data.name}-banner.webp`} name={data.label} linkTo={data.name} />
