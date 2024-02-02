@@ -12,13 +12,13 @@ const MapWithZoom = ({ name, label}) => {
     );
     
     return (
-        <main className="w-4/5 h-full">
+        <main className="h-full">
             <TransformWrapper>
                 {(utils) => (
                     <>
                         <Controls {...utils} />
                         <TransformComponent>
-                            <img className="w-full" src={`/${name}.webp`} alt={`Map of ${label}`} />
+                            <img className="object-contain object-center w-full h-screen" src={`/${name}.webp`} alt={`Map of ${label}`} />
                         </TransformComponent>
                     </>
                 )}
