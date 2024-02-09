@@ -7,7 +7,7 @@ const Home = () => {
             <h1 className="mb-6 text-6xl font-bold font-primary text-primary">Easy Tarkov Utilities</h1>
             <ul className="flex flex-wrap items-center justify-center gap-4 md:max-w-5xl lg:max-w-7xl">
                 <ListItem imgAlt={"Map of tarkov"} imgSrc={"/tarkov-map.webp"} name={"Maps"} linkTo={"maps"}/>
-                <ListItem imgAlt={"Map of tarkov"} imgSrc={"/wip.svg"} name={"Items Shopping List (WIP)"} linkTo={"items"}/>
+                <ListItem imgAlt={"Map of tarkov"} imgSrc={"/wip.svg"} name={"Items Shopping List (WIP)"} linkTo={"shoppinglist"}/>
             </ul>
         </main>
     )
