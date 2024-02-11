@@ -44,8 +44,8 @@ const ShoppingList = () => {
     };
 
     return (
-        <section className='flex flex-wrap items-center justify-center w-full min-h-screen bg-black md:flex-nowrap'>
-            <div className='flex flex-col items-center justify-center w-full md:basis-1/2'>
+        <section className='flex flex-wrap items-center justify-center w-full min-h-screen gap-8 bg-black md:flex-nowrap'>
+            <div className='flex flex-col items-center justify-center w-full md:basis-1/2 lg:max-w-[500px]'>
                 <input className='bg-[#101010] mb-4 px-4 py-2 border border-primary rounded-md w-4/5 text-white' type="text" value={searchQuery} onChange={handleSearchChange} placeholder="Search..." />
                 <ShoppingItemsList imageObjects={imageObjects} setItems={setItems} items={items}/>
                 <div className='flex gap-3 mt-4'>
@@ -53,7 +53,7 @@ const ShoppingList = () => {
                     <button className='px-4 py-2 text-white rounded-md min-w-24 bg-primary' onClick={() => handlePageChange(currentPage + 1)} disabled={endIndex >= ITEMS_IMAGES.length}>Next</button>
                 </div>
             </div>
-            <div className='flex flex-col w-full md:basis-1/2'>
+            <div className='flex flex-col w-full md:basis-1/2 lg:max-w-[500px]'>
                 <SelectedItemsList items={items} setItems={setItems} />
             </div>
         </section>
